@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Example App</title>
+
+    <!-- Link to manifest.json for PWA support -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Meta tags for PWA appearance -->
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <header>
+        <h1>Welcome to PWA Example</h1>
+    </header>
+
+    <main>
+        <p>This is a progressive web application demo.</p>
+
+        <!-- Sync Data Button -->
+        <button id="sync-button">Sync Data</button>
+
+        <!-- Camera Feature -->
+        <button id="camera-button">Use Camera</button>
+        <video id="camera-preview" autoplay muted></video>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PWA Example</p>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="/app.js"></script>
+</body>
+</html>
